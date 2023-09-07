@@ -1,0 +1,29 @@
+  body {
+  font-family: Inter, sans-serif;
+  }
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .btn {
+    padding: 16px 48px;
+    cursor: pointer;
+    background-color: white;
+    color: #232536;
+    transition: all .3s ease;
+    border: none;
+    font-family: Sen, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    &:hover {
+      background-color: darkgrey;
+    }
+  }
+
+  .btn-orange {
+    background-color: #FFD050;
+  }
